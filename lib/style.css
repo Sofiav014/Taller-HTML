@@ -25,15 +25,13 @@ body {
 }
 
 .container>.header, .container>.content, .container>.news, .container>.footer, .container>div {
-    background: #fff;
+    background: #101823;
     padding: 20px;
-    border: 1px solid #000000;
 }
 
 .container>.header {
     grid-column: 1/-1;
-    background-color: #ffffff;
-    color: #ffffff;
+    background-color: #101823;
 }
 .container>.footer {
     grid-column: 1/-1;
@@ -52,7 +50,7 @@ body {
     grid-column: span 2;
     grid-row: span 4;
 
-    background: #ffffff;
+    background: #101823;
     color: #000000;
 
     align-items: center;
@@ -61,7 +59,7 @@ body {
 }
 
 .news .card {
-    background: #101823;
+    background: #131e2e;
     padding: 20px;
     margin-top: 20px;
     color: #dfe6e9
