@@ -17,6 +17,7 @@
     </header>
 
     <div class="container">
+        <!-- Carrusel de imagenes -->
         <header class="header">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" ">
                 <div class="carousel-indicators">
@@ -24,38 +25,44 @@
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
+                <!-- Imagenes del carrusel-->
                 <div class="carousel-inner">
+                  <!-- Imagen 1 -->
                   <div class="carousel-item active">
                     <img src="img/carrusel/valo1.jpg" class="d-block w-100" alt="..." height="500px">
                   </div>
+                  <!-- Imagen 2-->
                   <div class="carousel-item">
                     <img src="img/carrusel/images.jpg" class="d-block w-100" alt="..." height="500px">
                   </div>
+                  <!-- Imagen 3-->
                   <div class="carousel-item">
                     <img src="img/carrusel/valo.png" class="d-block w-100" alt="..." height="500px">
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>    
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>    
         </header>
+
+        <!-- Acordion de agentes -->
         <main class="content">
-            <div class="accordion accordion-flush" id="accordionAgents">
+            <div class="accordion" id="accordionFlushExample">
 
                 <!-- Jett -->
                 <div class="accordion-item" > 
                   <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" style="background-color: #101823; color: #ffffff;" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <button class="accordion-button" type="button" style="background-color: #101823; color: #ffffff;" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                       Jett
                     </button>
                   </h2>
-                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample" style="background-color: #101823; color: #ffffff;">
+                  <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample" style="background-color: #101823; color: #ffffff;">
                     <div class="accordion-body">
                       <a href="https://playvalorant.com/es-es/agents/jett/" target = "_blank" style="text-decoration: none"><span style="color: #24dbd2"><strong>Jett</a></strong></span> viene de Corea del Sur, y su estilo de lucha ágil y evasivo le permite asumir grandes riesgos. Corre y salta de aquí para allá en las refriegas y hace trizas a los enemigos con una rapidez espectacular.
                     </div>
@@ -316,33 +323,28 @@
             </div>
         </main>
         
-        
+        <!-- Sidebar de noticias -->
         <aside class="news">
-
+          <!-- Card: Nuevo agente -->
           <div class="card">
             <iframe height="315" src="https://www.youtube.com/embed/qRao6FARFRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: relative;"></iframe>
-          
             <div class="card-body">
-              <h5 class="card-title">Nuevo agente proximamente</h5>
+              <h5 class="card-title"><strong>Nuevo agente</strong></h5>
               <p class="card-text">Harbor, el nuevo controlador de Valorant, proviene de la India y trae un kit de habilidades muy interesante.</p>
-
             </div>
           </div>
 
-          <div class="card" style="padding: 20pxl;">
+          <!-- Card: Cambios interfaz -->
+          <div class="card" >
             <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6c588ea58b470451/632b5dda8a5a2b30fbe2b0f6/Lobby_1920x1080.jpg" alt="...">
-          
             <div class="card-body">
-              <h5 class="card-title">Cambios de interfaz</h5>
-              <p class="card-text">próximos cambios visuales de UX/UI que comenzarán a implementarse en el parche 5.08. Estas actualizaciones se enfocan en la experiencia fuera del juego y traerán un nuevo sentido de estilo mientras mejoran la funcionalidad en algunas áreas.</p>
-
+              <h5 class="card-title"><strong>Cambios de interfaz</strong></h5>
+              <p class="card-text">Próximos cambios visuales de UX/UI se comenzarán a implementar en el parche 5.08. Estas actualizaciones se enfocan en la experiencia fuera del juego y traerán un nuevo sentido de estilo mientras mejoran la funcionalidad en algunas áreas.</p>
             </div>
           </div>
-          
-          
-        
         </aside>
 
+        <!--Form Subscripción-->
         <footer class="footer">
             <h2 style="color:rgb(255, 255, 255); font-weight: bold; padding-bottom: 10px;">Suscribete</h2>
             <p style="color:rgb(255, 255, 255); padding-bottom: 4px;">Si te suscribes podras recibir información de los ultimos cambios en Valorant !</p>

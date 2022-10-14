@@ -45,6 +45,7 @@ body {
 .container>.content {
     grid-column: span 3;
     grid-row: span 4;
+    text-align: justify;
 }
 
 .container>.news {
@@ -56,6 +57,7 @@ body {
 
     align-items: center;
     justify-content: center;
+    text-align: justify;
 }
 
 .news .card {
