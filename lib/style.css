@@ -65,3 +65,15 @@ body {
     color: #dfe6e9
 }
 
+
+@media screen and (max-width: 780px) {
+    .header {
+        text-align: center;
+    }
+    .container .content {
+        grid-column: 1 / -1;
+    }
+    .container .news {
+        grid-column: 1 / -1;
+    }
+}
