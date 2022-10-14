@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #101823;
+    font-family: 'Manjari', sans-serif;
+}
+
+.title h1 {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2.9em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    margin: 1.6em auto;
+    display: grid;
+    gap: 1.6em;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.container>.header, .container>.content, .container>.news, .container>.footer, .container>div {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+
+.container>.header {
+    grid-column: 1/-1;
+    background-color: #ffffff;
+    color: #ffffff;
+}
+.container>.footer {
+    grid-column: 1/-1;
+    background-color: #101823;
+    color: #ffffff;
+    border: #101823;
+}
+
+.container>.content {
+    grid-column: span 3;
+    grid-row: span 4;
+}
+
+.container>.news {
+    grid-column: span 2;
+    grid-row: span 4;
+
+    background: #ffffff;
+    color: #000000;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.news .card {
+    background: #101823;
+    padding: 20px;
+    margin-top: 20px;
+    color: #dfe6e9
+}
+
